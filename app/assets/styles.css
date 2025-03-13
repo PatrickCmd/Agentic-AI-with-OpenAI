@@ -1,0 +1,89 @@
+/* Styling for the chat interface */
+.stChatMessage {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* User message styling */
+.stChatMessage[data-message-type="user"] {
+    background-color: #e9f5ff;
+}
+
+/* Assistant message styling */
+.stChatMessage[data-message-type="assistant"] {
+    background-color: #f0f2f6;
+}
+
+/* Sources expander styling */
+.chat-sources-expander {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* Chat input field */
+.stChatInputContainer {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e0e0e0;
+}
+
+/* Sidebar styles */
+.sidebar .stButton > button {
+    width: 100%;
+}
+
+/* Tool configuration section */
+.tool-section {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+h1, h2, h3 {
+    color: #0e76a8;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    font-size: 0.9rem;
+    color: #0e76a8;
+}
+
+/* File uploader styling */
+.uploadedFileInfo {
+    padding: 0.5rem;
+    background-color: #f0f2f6;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #0e76a8;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+}
+
+.stButton > button:hover {
+    background-color: #0a5a7e;
+}
+
+/* Status messages */
+.success-message {
+    color: #28a745;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: #e8f5e9;
+}
+
+.error-message {
+    color: #dc3545;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: #ffebee;
+}
