@@ -16,7 +16,7 @@ This is a Streamlit application that demonstrates Retrieval-Augmented Generation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/PatrickCmd/Agentic-AI-with-OpenAI.git openai-api-sdk
 cd openai-api-sdk
 ```
 
